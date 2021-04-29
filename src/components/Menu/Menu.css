@@ -1,0 +1,12 @@
+.menu-group{
+  display: flex;
+  justify-content: space-between;
+}
+.menu-group .el-button{
+  border-radius: 2px;
+  border: 0px;
+  margin-right: 5px;
+}
+.menu-group div{
+  display: flex;
+}

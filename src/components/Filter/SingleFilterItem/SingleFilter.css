@@ -1,0 +1,11 @@
+.single-filter-item{
+  display: flex;
+  margin: 5px 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.filter-input{
+  width: 40% !important;
+}

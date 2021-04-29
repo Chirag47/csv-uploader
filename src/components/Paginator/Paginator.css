@@ -1,0 +1,6 @@
+.my-paginator{
+  margin: 3px 0px;
+}
+.my-paginator .el-pagination__total{
+  margin: 0px 4px;
+}

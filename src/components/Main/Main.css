@@ -1,0 +1,10 @@
+.filter-row{
+  display: flex;
+  align-items: center;
+}
+.filter-row .filter-button .el-button{
+  border: none;
+  border-radius: 0px;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
