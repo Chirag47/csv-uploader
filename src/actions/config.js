@@ -1,6 +1,5 @@
 var config = {
-  // "BASEURL":""
-  "BASEURL": "http://localhost:3001"
+  "BASEURL":""
 }
 
 export default config;

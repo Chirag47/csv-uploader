@@ -61,6 +61,10 @@ export function resetData(){
       let resetResponse = await axios.post(config.BASEURL + '/reset');
       if(resetResponse.status === 200){
         dispatch(setRows([]));
+        dispatch(setPageNumber(1));
+        dispatch(setPageSize(25));
+        dispatch(setSortCriteria({}));
+        dispatch(setFilter({}));
         Notification({
           type: 'success',
           message: "Reset Successful",
